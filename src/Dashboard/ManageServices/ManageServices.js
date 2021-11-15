@@ -6,13 +6,13 @@ const ManageServices = () => {
     const [control , setControl] = useState(false); 
     
     useEffect(() =>{
-        fetch(' http://localhost:5000/allServices')
+        fetch(' https://thawing-journey-34780.herokuapp.com/allServices')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
 
     const handleDelete = id =>{
-        fetch(` http://localhost:5000/deleteService/${id}` , {
+        fetch(` https://thawing-journey-34780.herokuapp.com/deleteService/${id}` , {
             method: "DELETE" ,
         })
         .then(res => res.json())
