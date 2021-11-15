@@ -1,0 +1,10 @@
+.dashboard-col {
+    height: 100vh;
+    background-color: #222222;
+    color: white;
+}
+
+.manage{
+    cursor: pointer;
+    align-items: center;
+}

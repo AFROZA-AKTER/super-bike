@@ -1,0 +1,9 @@
+.decor{
+    text-decoration: none;
+    font-size: large;
+    color: white; 
+}
+
+.decor:hover{
+    color: #F97150;
+}
